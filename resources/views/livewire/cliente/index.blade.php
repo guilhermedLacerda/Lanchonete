@@ -38,6 +38,8 @@
                         <td>
                             <button class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#viewModal" wire:click="abrirModalVisualizar({{ $c->id }})">Visualizar</button>
                             <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal" wire:click="abrirModalExclusao({{ $c->id }})">Excluir</button>
+
+                            <a href="{{ route('cliente.edit', ['id' => $c->id]) }}" class="btn btn-info btn-sm">Editar sem Modal</a>
                         </td>
                     </tr>
                     @endforeach
