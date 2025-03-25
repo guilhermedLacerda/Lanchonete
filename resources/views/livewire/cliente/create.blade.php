@@ -21,23 +21,23 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="endereco">endereco</label>
+                    <label for="endereco">Endereco</label>
                     <input type="text" name="endereco" id="endereco" class="form-control" wire:model.defer="endereco" placeholder="Insira seu endereço">
                 </div>
 
                 <div class="mb-3">
-                    <label for="rm">telefone</label>
+                    <label for="telefone">Telefone</label>
                     <input class="form-control" name="telefone" id="telefone" wire:model.defer="telefone" placeholder="Insira seu telefone"></input>
                 </div>
 
                 <div class="mb-3">
-                    <label for="rm">cpf</label>
-                    <input class="form-control" name="telefone" id="telefone" wire:model.defer="telefone" placeholder="Insira seu telefone"></input>
+                    <label for="cpf">CPF</label>
+                    <input class="form-control" name="cpf" id="cpf" wire:model.defer="cpf" placeholder="Insira seu CPF"></input>
                 </div>
 
                 <div class="mb-3">
-                    <label for="password">password</label>
-                    <input type="password" class="form-control" name="password" id="password" wire:model.defer="password" placeholder="Insira sua Senha"></input>
+                    <label for="senha">Senha</label>
+                    <input type="password" class="form-control" name="senha" id="senha" wire:model.defer="senha" placeholder="Insira sua Senha"></input>
                 </div>
 
                 <div class="mb-3 d-flex justify-content-center">
